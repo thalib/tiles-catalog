@@ -1,0 +1,24 @@
+[
+  {
+    "model": "FISH",
+    "row": [
+      "wall/FISH-A.jpg",
+      "wall/FISH-A.jpg",
+      "wall/FISH-HL.jpg",
+      "wall/FISH-C.jpg",
+      "wall/FISH-C.jpg",
+      "wall/FISH-C.jpg"
+    ]
+  },
+  {
+    "model": "E103",
+    "row": [
+      "wall/e103.png",
+      "wall/e103.png",
+      "wall/e103.png",
+      "wall/e103.png",
+      "wall/e103.png",
+      "wall/e103.png"
+    ]
+  }
+]
