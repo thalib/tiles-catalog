@@ -1,24 +1,36 @@
 [
   {
-    "model": "FISH",
+    "model": "DN-1031",
+    "bg":"room-7.png",
     "row": [
-      "wall/FISH-A.jpg",
-      "wall/FISH-A.jpg",
-      "wall/FISH-HL.jpg",
-      "wall/FISH-C.jpg",
-      "wall/FISH-C.jpg",
-      "wall/FISH-C.jpg"
+      "image/tile/wall/1031L.png",
+      "image/tile/wall/1031L.png",
+      "image/tile/wall/1031HL.png",
+      "image/tile/wall/1031HL.png",
+      "image/tile/wall/1031D.png",
+      "image/tile/wall/1031D.png"
     ]
   },
   {
-    "model": "E103",
+    "model": "DN-1002",
     "row": [
-      "wall/e103.png",
-      "wall/e103.png",
-      "wall/e103.png",
-      "wall/e103.png",
-      "wall/e103.png",
-      "wall/e103.png"
+      "image/tile/wall/1002L.png",
+      "image/tile/wall/1002L.png",
+      "image/tile/wall/1002HL.png",
+      "image/tile/wall/1002HL.png",
+      "image/tile/wall/1002D.png",
+      "image/tile/wall/1002D.png"
+    ]
+  },
+  {
+    "model": "DN-E103",
+    "row": [
+      "image/tile/elevation/e103.png",
+      "image/tile/elevation/e103.png",
+      "image/tile/elevation/e103.png",
+      "image/tile/elevation/e103.png",
+      "image/tile/elevation/e103.png",
+      "image/tile/elevation/e103.png"
     ]
   }
 ]
