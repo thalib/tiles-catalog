@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 import getopt
 import sys
 from datetime import date
+import random
 
 ###########################################
 def saveFile(file_name, data):
@@ -46,7 +47,7 @@ def tile_level_2(model):
 def tile_level_3(model, background):
   file_out = f"out/temp/{model}"
   file_out_final = f"out/image/{model}"
-  cmd = f"magick -size 1920x1080 xc:darkgrey  {file_out}-L2.png -gravity northwest -geometry +0+0 -composite image/bg/{background} -composite {file_out_final}.png"
+  cmd = f"magick -size 1920x1080 xc:darkgrey  {file_out}-L2.png -gravity northwest -geometry +0+0 -composite {background} -composite {file_out_final}.png"
   print(f"    - {cmd}")
   os.system(cmd)
    
@@ -57,15 +58,20 @@ def tile_level_3(model, background):
 os.makedirs("out/temp", exist_ok = True)
 os.makedirs("out/image", exist_ok = True)
 
-json_data = json.loads(loadFile("model.json"))
+json_data = json.loads(loadFile("model2.json"))
 
+bg_list = os.listdir("asset/bg/wall")
+wall_list = os.listdir("asset/tile/wall")
+print(wall_list)
 
 for row in json_data:
-  model= row['model']
-  bg="room-3.png"
+  model = row["model"]
+  bg = random.choice(bg_list)
   if "bg" in row:
     bg = row['bg']
+    
+  file_bg = f"asset/bg/wall/{bg}"
   print(f"  Processing: {model} with background {bg}")  
   tile_level_1(row)
   tile_level_2(model)
-  tile_level_3(model, bg)
+  tile_level_3(model, file_bg)

@@ -1,0 +1,310 @@
+[
+  {
+    "model": "DNW-1002",
+    "row": [
+      "asset/tile/wall/1002L.png",
+      "asset/tile/wall/1002L.png",
+      "asset/tile/wall/1002HL.png",
+      "asset/tile/wall/1002HL.png",
+      "asset/tile/wall/1002D.png",
+      "asset/tile/wall/1002D.png"
+    ]
+  },
+  {
+    "model": "DNW-1004",
+    "row": [
+      "asset/tile/wall/1004L.png",
+      "asset/tile/wall/1004L.png",
+      "asset/tile/wall/1004HL.png",
+      "asset/tile/wall/1004HL.png",
+      "asset/tile/wall/1004D.png",
+      "asset/tile/wall/1004D.png"
+    ]
+  },
+  {
+    "model": "DNW-1009",
+    "row": [
+      "asset/tile/wall/1009L.png",
+      "asset/tile/wall/1009L.png",
+      "asset/tile/wall/1009HL.png",
+      "asset/tile/wall/1009HL.png",
+      "asset/tile/wall/1009D.png",
+      "asset/tile/wall/1009D.png"
+    ]
+  },
+  {
+    "model": "DNW-1010",
+    "row": [
+      "asset/tile/wall/1010L.png",
+      "asset/tile/wall/1010L.png",
+      "asset/tile/wall/1010HL.png",
+      "asset/tile/wall/1010HL.png",
+      "asset/tile/wall/1010D.png",
+      "asset/tile/wall/1010D.png"
+    ]
+  },
+  {
+    "model": "DNW-1011",
+    "row": [
+      "asset/tile/wall/1011L.png",
+      "asset/tile/wall/1011L.png",
+      "asset/tile/wall/1011HL.png",
+      "asset/tile/wall/1011HL.png",
+      "asset/tile/wall/1011D.png",
+      "asset/tile/wall/1011D.png"
+    ]
+  },
+  {
+    "model": "DNW-1021",
+    "row": [
+      "asset/tile/wall/1021L.png",
+      "asset/tile/wall/1021L.png",
+      "asset/tile/wall/1021HL.png",
+      "asset/tile/wall/1021HL.png",
+      "asset/tile/wall/1021D.png",
+      "asset/tile/wall/1021D.png"
+    ]
+  },
+  {
+    "model": "DNW-1026",
+    "row": [
+      "asset/tile/wall/1026L.png",
+      "asset/tile/wall/1026L.png",
+      "asset/tile/wall/1026HL.png",
+      "asset/tile/wall/1026HL.png",
+      "asset/tile/wall/1026D.png",
+      "asset/tile/wall/1026D.png"
+    ]
+  },
+  {
+    "model": "DNW-1028",
+    "row": [
+      "asset/tile/wall/1028L.png",
+      "asset/tile/wall/1028L.png",
+      "asset/tile/wall/1028HL.png",
+      "asset/tile/wall/1028HL.png",
+      "asset/tile/wall/1028D.png",
+      "asset/tile/wall/1028D.png"
+    ]
+  },
+  {
+    "model": "DNW-1029",
+    "row": [
+      "asset/tile/wall/1029L.png",
+      "asset/tile/wall/1029L.png",
+      "asset/tile/wall/1029HL.png",
+      "asset/tile/wall/1029HL.png",
+      "asset/tile/wall/1029D.png",
+      "asset/tile/wall/1029D.png"
+    ]
+  },
+  {
+    "model": "DNW-1030",
+    "row": [
+      "asset/tile/wall/1030L.png",
+      "asset/tile/wall/1030L.png",
+      "asset/tile/wall/1030HL.png",
+      "asset/tile/wall/1030HL.png",
+      "asset/tile/wall/1030D.png",
+      "asset/tile/wall/1030D.png"
+    ]
+  },
+  {
+    "model": "DNW-1031",
+    "row": [
+      "asset/tile/wall/1031L.png",
+      "asset/tile/wall/1031L.png",
+      "asset/tile/wall/1031HL.png",
+      "asset/tile/wall/1031HL.png",
+      "asset/tile/wall/1031D.png",
+      "asset/tile/wall/1031D.png"
+    ]
+  },
+  {
+    "model": "DNW-1034",
+    "row": [
+      "asset/tile/wall/1034L.png",
+      "asset/tile/wall/1034L.png",
+      "asset/tile/wall/1034HL.png",
+      "asset/tile/wall/1034HL.png",
+      "asset/tile/wall/1034D.png",
+      "asset/tile/wall/1034D.png"
+    ]
+  },
+  {
+    "model": "DNW-1035",
+    "row": [
+      "asset/tile/wall/1035L.png",
+      "asset/tile/wall/1035L.png",
+      "asset/tile/wall/1035HL.png",
+      "asset/tile/wall/1035HL.png",
+      "asset/tile/wall/1035D.png",
+      "asset/tile/wall/1035D.png"
+    ]
+  },
+  {
+    "model": "DNW-1036",
+    "row": [
+      "asset/tile/wall/1036L.png",
+      "asset/tile/wall/1036L.png",
+      "asset/tile/wall/1036HL.png",
+      "asset/tile/wall/1036HL.png",
+      "asset/tile/wall/1036D.png",
+      "asset/tile/wall/1036D.png"
+    ]
+  },
+  {
+    "model": "DNW-1038",
+    "row": [
+      "asset/tile/wall/1038L.png",
+      "asset/tile/wall/1038L.png",
+      "asset/tile/wall/1038HL.png",
+      "asset/tile/wall/1038HL.png",
+      "asset/tile/wall/1038D.png",
+      "asset/tile/wall/1038D.png"
+    ]
+  },
+  {
+    "model": "DNW-1115",
+    "row": [
+      "asset/tile/wall/1115L.png",
+      "asset/tile/wall/1115L.png",
+      "asset/tile/wall/1115HL.png",
+      "asset/tile/wall/1115HL.png",
+      "asset/tile/wall/1115D.png",
+      "asset/tile/wall/1115D.png"
+    ]
+  },
+  {
+    "model": "DNW-1120",
+    "row": [
+      "asset/tile/wall/1120L.png",
+      "asset/tile/wall/1120L.png",
+      "asset/tile/wall/1120HL.png",
+      "asset/tile/wall/1120HL.png",
+      "asset/tile/wall/1120D.png",
+      "asset/tile/wall/1120D.png"
+    ]
+  },
+  {
+    "model": "DNW-1122",
+    "row": [
+      "asset/tile/wall/1122L.png",
+      "asset/tile/wall/1122L.png",
+      "asset/tile/wall/1122HL.png",
+      "asset/tile/wall/1122HL.png",
+      "asset/tile/wall/1122D.png",
+      "asset/tile/wall/1122D.png"
+    ]
+  },
+  {
+    "model": "DNW-1123",
+    "row": [
+      "asset/tile/wall/1123L.png",
+      "asset/tile/wall/1123L.png",
+      "asset/tile/wall/1123HL.png",
+      "asset/tile/wall/1123HL.png",
+      "asset/tile/wall/1123D.png",
+      "asset/tile/wall/1123D.png"
+    ]
+  },
+  {
+    "model": "DNW-1981",
+    "row": [
+      "asset/tile/wall/1981L.png",
+      "asset/tile/wall/1981L.png",
+      "asset/tile/wall/1981HL.png",
+      "asset/tile/wall/1981HL.png",
+      "asset/tile/wall/1981D.png",
+      "asset/tile/wall/1981D.png"
+    ]
+  },
+  {
+    "model": "DNW-1982",
+    "row": [
+      "asset/tile/wall/1982L.png",
+      "asset/tile/wall/1982L.png",
+      "asset/tile/wall/1982HL.png",
+      "asset/tile/wall/1982HL.png",
+      "asset/tile/wall/1982D.png",
+      "asset/tile/wall/1982D.png"
+    ]
+  },
+  {
+    "model": "DNW-1984",
+    "row": [
+      "asset/tile/wall/1984L.png",
+      "asset/tile/wall/1984L.png",
+      "asset/tile/wall/1984HL.png",
+      "asset/tile/wall/1984HL.png",
+      "asset/tile/wall/1984D.png",
+      "asset/tile/wall/1984D.png"
+    ]
+  },
+  {
+    "model": "DNW-2211",
+    "row": [
+      "asset/tile/wall/2211L.png",
+      "asset/tile/wall/2211L.png",
+      "asset/tile/wall/2211HL.png",
+      "asset/tile/wall/2211HL.png",
+      "asset/tile/wall/2211D.png",
+      "asset/tile/wall/2211D.png"
+    ]
+  },
+  {
+    "model": "DNW-2292",
+    "row": [
+      "asset/tile/wall/2292L.png",
+      "asset/tile/wall/2292L.png",
+      "asset/tile/wall/2292HL.png",
+      "asset/tile/wall/2292HL.png",
+      "asset/tile/wall/2292D.png",
+      "asset/tile/wall/2292D.png"
+    ]
+  },
+  {
+    "model": "DNW-2301",
+    "row": [
+      "asset/tile/wall/2301L.png",
+      "asset/tile/wall/2301L.png",
+      "asset/tile/wall/2301HL.png",
+      "asset/tile/wall/2301HL.png",
+      "asset/tile/wall/2301D.png",
+      "asset/tile/wall/2301D.png"
+    ]
+  },
+  {
+    "model": "DNW-2337",
+    "row": [
+      "asset/tile/wall/2337L.png",
+      "asset/tile/wall/2337L.png",
+      "asset/tile/wall/2337HL.png",
+      "asset/tile/wall/2337HL.png",
+      "asset/tile/wall/2337D.png",
+      "asset/tile/wall/2337D.png"
+    ]
+  },
+  {
+    "model": "DNW-2346",
+    "row": [
+      "asset/tile/wall/2346L.png",
+      "asset/tile/wall/2346L.png",
+      "asset/tile/wall/2346HL.png",
+      "asset/tile/wall/2346HL.png",
+      "asset/tile/wall/2346D.png",
+      "asset/tile/wall/2346D.png"
+    ]
+  },
+  {
+    "model": "DNW-C002",
+    "row": [
+      "asset/tile/wall/C002L.png",
+      "asset/tile/wall/C002L.png",
+      "asset/tile/wall/C002HL.png",
+      "asset/tile/wall/C002HL.png",
+      "asset/tile/wall/C002D.png",
+      "asset/tile/wall/C002D.png"
+    ]
+  }
+]
