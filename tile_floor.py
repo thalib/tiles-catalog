@@ -58,10 +58,10 @@ def tile_level_3(model):
   cmd = f"magick {file_input} {cmd_args} {file_out}"
   runCmd(cmd)
 
-def tile_level_4(model, bg):
+def tile_level_4(model, bg, out_path):
   #magick -size 1920x1080 xc:darkgrey  final.png -gravity northwest -geometry +0+500 -composite ../asset/bg/parking/outdoor-2.png -composite wow.png
   file_input = f"out/temp/{model}-L3.png"
-  file_out = f"out/temp/{model}-L4.png"
+  file_out = f"{out_path}/{model}.png"
   cmd_args = f" -size 1920x1080 xc:darkgrey  {file_input} -gravity northwest -geometry +0+500 -composite {bg} -composite "
   cmd = f"magick {cmd_args} {file_out}"
   runCmd(cmd)
@@ -71,7 +71,7 @@ def tile_level_4(model, bg):
 # magick montage  out.png  +clone +clone +clone -tile x1  -geometry +0+0  out2.png
 
 os.makedirs("out/temp", exist_ok = True)
-os.makedirs("out/image/floor/", exist_ok = True)
+os.makedirs("out/image/parking/", exist_ok = True)
 
 json_data = json.loads(loadFile("model2.json"))
 
@@ -90,6 +90,6 @@ for row in tile_list:
   tile_level_1(model)
   tile_level_2(model)
   tile_level_3(model)
-  tile_level_4(model, file_bg)
+  tile_level_4(model, file_bg, "out/image/parking")
   break
   
