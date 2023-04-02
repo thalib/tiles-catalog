@@ -1,0 +1,89 @@
+[
+  {
+    "model": "DNW-1001",
+    "row": [
+      "asset/tile/wall/1001L.png",
+      "asset/tile/wall/1001L.png",
+      "asset/tile/wall/1001HL.png",
+      "asset/tile/wall/1001HL.png",
+      "asset/tile/wall/1001D.png",
+      "asset/tile/wall/1001D.png"
+    ]
+  },
+  {
+    "model": "DNW-1007",
+    "row": [
+      "asset/tile/wall/1004L.png",
+      "asset/tile/wall/1004L.png",
+      "asset/tile/wall/1007HL.png",
+      "asset/tile/wall/1007HL.png",
+      "asset/tile/wall/1007D.png",
+      "asset/tile/wall/1007D.png"
+    ]
+  },
+  {
+    "model": "DNW-1027",
+    "row": [
+      "asset/tile/wall/1027D.png",
+      "asset/tile/wall/1027HL1.png",
+      "asset/tile/wall/1027D.png",
+      "asset/tile/wall/1027HL2.png",
+      "asset/tile/wall/1027D.png"
+    ]
+  },
+  {
+    "model": "DNW-1039",
+    "row": [
+      "asset/tile/wall/1039L.png",
+      "asset/tile/wall/1039L.png",
+      "asset/tile/wall/1039HL1.png",
+      "asset/tile/wall/1039HL2.png",
+      "asset/tile/wall/1039L.png",
+      "asset/tile/wall/1039L.png"
+    ]
+  },
+  {
+    "model": "DNW-1040",
+    "row": [
+      "asset/tile/wall/1040L.png",
+      "asset/tile/wall/1040L.png",
+      "asset/tile/wall/1040HL1.png",
+      "asset/tile/wall/1040HL2.png",
+      "asset/tile/wall/1040D.png",
+      "asset/tile/wall/1040D.png"
+    ]
+  },
+  {
+    "model": "DNW-1052",
+    "row": [
+      "asset/tile/wall/1052L.png",
+      "asset/tile/wall/1052L.png",
+      "asset/tile/wall/1052HL.png",
+      "asset/tile/wall/1052HL.png",
+      "asset/tile/wall/1052D.png",
+      "asset/tile/wall/1052D.png"
+    ]
+  },
+  {
+    "model": "DNW-1100",
+    "row": [
+      "asset/tile/wall/1100L.png",
+      "asset/tile/wall/1100L.png",
+      "asset/tile/wall/1100HL.png",
+      "asset/tile/wall/1100HL.png",
+      "asset/tile/wall/1100D.png",
+      "asset/tile/wall/1100D.png"
+    ]
+  },
+  {
+    "model": "DNW-1983",
+    "row": [
+      "asset/tile/wall/1983D.png",
+      "asset/tile/wall/1983HL1.png",
+      "asset/tile/wall/1983D.png",
+      "asset/tile/wall/1983HL2.png",
+      "asset/tile/wall/1983D.png",
+      "asset/tile/wall/1983D.png"
+    ]
+  }
+]

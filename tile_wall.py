@@ -51,7 +51,7 @@ def tile_level_2(model):
 
 def tile_level_3(model, background):
   file_out = f"out/temp/{model}"
-  file_out_final = f"out/image/{model}"
+  file_out_final = f"out/image/wall/{model}"
   cmd = f"magick -size 1920x1080 xc:darkgrey  {file_out}-L2.png -gravity northwest -geometry +0+0 -composite {background} -composite {file_out_final}.png"
   runCmd(cmd)
    
@@ -69,24 +69,29 @@ def tile_level_4(model, tile_data):
 # magick montage  wall/FISH-A.jpg wall/FISH-A.jpg wall/FISH-HL.jpg  wall/FISH-C.jpg wall/FISH-C.jpg wall/FISH-C.jpg -tile x6  -border 1 -geometry +0+0  out.png
 # magick montage  out.png  +clone +clone +clone -tile x1  -geometry +0+0  out2.png
 
-os.makedirs("out/temp", exist_ok = True)
-os.makedirs("out/image", exist_ok = True)
+PATH_OUT = "out/image/wall"
+PATH_BG = "asset/bg/outdoor"
 
-json_data = json.loads(loadFile("model2.json"))
+os.makedirs("out/temp", exist_ok = True)
+os.makedirs(PATH_OUT, exist_ok = True)
+
+json_data = json.loads(loadFile("model3.json"))
 
 bg_list = os.listdir("asset/bg/wall")
 
 for row in json_data:
   model = row["model"]
+  file_out = f"{PATH_OUT}/{model}.png"
   
-  bg = random.choice(bg_list)
-  if "bg" in row:
-    bg = row['bg']
-    
-  file_bg = f"asset/bg/wall/{bg}"
-  print(f"  Processing: {model} with background {bg}")  
-  tile_level_1(row)
-  tile_level_2(model)
-  tile_level_3(model, file_bg)
-  tile_level_4(model, row)
-  break
+  if not os.path.exists(file_out):
+    bg = random.choice(bg_list)
+    if "bg" in row:
+      bg = row['bg']
+      
+    file_bg = f"asset/bg/wall/{bg}"
+    print(f"  Processing: {model} with background {bg}")  
+    tile_level_1(row)
+    tile_level_2(model)
+    tile_level_3(model, file_bg)
+    #tile_level_4(model, row) <- todo
+  

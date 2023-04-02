@@ -28,34 +28,14 @@ def loadFile(file_name):
 ###########################################
 
 tiles_list = [
-    ['1002D.png', '1002HL.png', '1002L.png'],
-    ['1004D.png', '1004HL.png', '1004L.png'],
-    ['1009D.png', '1009HL.png', '1009L.png'],
-    ['1010D.png', '1010HL.png', '1010L.png'],
-    ['1011D.png', '1011HL.png', '1011L.png'],
-    ['1021D.png', '1021HL.png', '1021L.png'],
-    ['1026D.png', '1026HL.png', '1026L.png'],
-    ['1028D.png', '1028HL.png', '1028L.png'],
-    ['1029D.png', '1029HL.png', '1029L.png'],
-    ['1030D.png', '1030HL.png', '1030L.png'],
-    ['1031D.png', '1031HL.png', '1031L.png'],
-    ['1034D.png', '1034HL.png', '1034L.png'],
-    ['1035D.png', '1035HL.png', '1035L.png'],
-    ['1036D.png', '1036HL.png', '1036L.png'],
-    ['1038D.png', '1038HL.png', '1038L.png'],
-    ['1115D.png', '1115HL.png', '1115L.png'],
-    ['1120D.png', '1120HL.png', '1120L.png'],
-    ['1122D.png', '1122HL.png', '1122L.png'],
-    ['1123D.png', '1123HL.png', '1123L.png'],
-    ['1981D.png', '1981HL.png', '1981L.png'],
-    ['1982D.png', '1982HL.png', '1982L.png'],
-    ['1984D.png', '1984HL.png', '1984L.png'],
-    ['2211D.png', '2211HL.png', '2211L.png'],
-    ['2292D.png', '2292HL.png', '2292L.png'],
-    ['2301D.png', '2301HL.png', '2301L.png'],
-    ['2337D.png', '2337HL.png', '2337L.png'],
-    ['2346D.png', '2346HL.png', '2346L.png'],
-    ['C002D.png', 'C002HL.png', 'C002L.png']
+    ['1001D.png', '1001HL.png', '1001L.png'],
+    ['1007D.png', '1007HL.png', '1004L.png'],
+    ['1027D.png', '1027HL1.png', '1027HL2.png'],
+    ['1039L.png', '1039HL1.png', '1039HL2.png'],
+    ['1040D.png', '1040HL.png', '1040L.png'],
+    ['1052D.png', '1052HL.png', '1052L.png'],
+    ['1100D.png', '1100HL.png', '1100L.png'],
+    ['1983D.png', '1983HL1.png', '1983HL1.png']
 ]
 
 tiles_json = []
@@ -77,4 +57,4 @@ for row in tiles_list:
 
 print(tiles_json)
 
-saveFile("model2.json", json.dumps(tiles_json, indent=2))
+saveFile("model3.json", json.dumps(tiles_json, indent=2))

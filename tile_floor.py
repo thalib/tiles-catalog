@@ -63,7 +63,7 @@ def tile_level_4(model, bg, file_out):
   file_input = f"out/temp/{model}-L3.png"
   cmd_args = f" -size 1920x1080 xc:darkgrey  {file_input} -gravity northwest -geometry +0+500 -composite {bg} -composite "
   cmd_args += " asset/logo.png -gravity northwest -geometry +20+20 -composite "
-  cmd_args += f" -gravity northwest -fill black -pointsize 40 -annotate +20+180 Model:{model}"
+  cmd_args += f" -gravity northwest -fill black -pointsize 40 -annotate +20+180 Model:DNF-{model}"
   cmd_args += f" asset/tile/floor/{model}.png -gravity northwest -geometry 300x300+30+250 -bordercolor white -border 10 -composite "
   cmd = f"magick {cmd_args} {file_out}"
   runCmd(cmd)
@@ -75,13 +75,13 @@ def tile_level_4(model, bg, file_out):
 os.makedirs("out/temp", exist_ok = True)
 os.makedirs("out/image/parking/", exist_ok = True)
 
-json_data = json.loads(loadFile("model2.json"))
+PATH_OUT = "out/image/parking"
+PATH_BG = "asset/bg/outdoor"
 
-bg_list = os.listdir("asset/bg/parking")
+bg_list = os.listdir(PATH_BG)
 tile_list = os.listdir("asset/tile/floor")
 
-PATH_OUT = "out/image/parking"
-PATH_BG = "asset/bg/parking"
+
 
 
 for row in tile_list:
@@ -95,9 +95,9 @@ for row in tile_list:
     file_bg = f"{PATH_BG}/{bg}"
     
     print(f"  Processing: {model} with background {bg}")  
-    tile_level_1(model)
-    tile_level_2(model)
-    tile_level_3(model)
+    #tile_level_1(model)
+    #tile_level_2(model)
+    #tile_level_3(model)
     tile_level_4(model, file_bg, file_out)
  
   
