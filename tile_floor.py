@@ -58,11 +58,13 @@ def tile_level_3(model):
   cmd = f"magick {file_input} {cmd_args} {file_out}"
   runCmd(cmd)
 
-def tile_level_4(model, bg, out_path):
+def tile_level_4(model, bg, file_out):
   #magick -size 1920x1080 xc:darkgrey  final.png -gravity northwest -geometry +0+500 -composite ../asset/bg/parking/outdoor-2.png -composite wow.png
   file_input = f"out/temp/{model}-L3.png"
-  file_out = f"{out_path}/{model}.png"
   cmd_args = f" -size 1920x1080 xc:darkgrey  {file_input} -gravity northwest -geometry +0+500 -composite {bg} -composite "
+  cmd_args += " asset/logo.png -gravity northwest -geometry +20+20 -composite "
+  cmd_args += f" -gravity northwest -fill black -pointsize 40 -annotate +20+180 Model:{model}"
+  cmd_args += f" asset/tile/floor/{model}.png -gravity northwest -geometry 300x300+30+250 -bordercolor white -border 10 -composite "
   cmd = f"magick {cmd_args} {file_out}"
   runCmd(cmd)
 
@@ -78,18 +80,25 @@ json_data = json.loads(loadFile("model2.json"))
 bg_list = os.listdir("asset/bg/parking")
 tile_list = os.listdir("asset/tile/floor")
 
+PATH_OUT = "out/image/parking"
+PATH_BG = "asset/bg/parking"
+
+
 for row in tile_list:
-  
-  bg = random.choice(bg_list)
-  #if "bg" in row:
-  #  bg = row['bg']
-    
-  file_bg = f"asset/bg/parking/{bg}"
+
   model = os.path.splitext(row)[0]
-  print(f"  Processing: {model} with background {bg}")  
-  tile_level_1(model)
-  tile_level_2(model)
-  tile_level_3(model)
-  tile_level_4(model, file_bg, "out/image/parking")
-  break
+  file_out = f"{PATH_OUT}/{model}.png"
+  
+  if not os.path.exists(file_out):
+    bg = random.choice(bg_list)
+      
+    file_bg = f"{PATH_BG}/{bg}"
+    
+    print(f"  Processing: {model} with background {bg}")  
+    tile_level_1(model)
+    tile_level_2(model)
+    tile_level_3(model)
+    tile_level_4(model, file_bg, file_out)
+ 
+  
   
