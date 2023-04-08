@@ -178,6 +178,17 @@
     ]
   },
   {
+    "model": "DNW-1115-PLAIN",
+    "row": [
+      "asset/tile/wall/1115D.png",
+      "asset/tile/wall/1115D.png",
+      "asset/tile/wall/1115D.png",
+      "asset/tile/wall/1115D.png",
+      "asset/tile/wall/1115D.png",
+      "asset/tile/wall/1115D.png"
+    ]
+  },
+  {
     "model": "DNW-1120",
     "row": [
       "asset/tile/wall/1120L.png",
@@ -195,6 +206,17 @@
       "asset/tile/wall/1122L.png",
       "asset/tile/wall/1122HL.png",
       "asset/tile/wall/1122HL.png",
+      "asset/tile/wall/1122D.png",
+      "asset/tile/wall/1122D.png"
+    ]
+  },
+  {
+    "model": "DNW-1122-PLAIN",
+    "row": [
+      "asset/tile/wall/1122D.png",
+      "asset/tile/wall/1122D.png",
+      "asset/tile/wall/1122D.png",
+      "asset/tile/wall/1122D.png",
       "asset/tile/wall/1122D.png",
       "asset/tile/wall/1122D.png"
     ]
@@ -222,6 +244,17 @@
     ]
   },
   {
+    "model": "DNW-1981-PLAIN",
+    "row": [
+      "asset/tile/wall/1981D.png",
+      "asset/tile/wall/1981D.png",
+      "asset/tile/wall/1981D.png",
+      "asset/tile/wall/1981D.png",
+      "asset/tile/wall/1981D.png",
+      "asset/tile/wall/1981D.png"
+    ]
+  },
+  {
     "model": "DNW-1982",
     "row": [
       "asset/tile/wall/1982L.png",
@@ -239,6 +272,17 @@
       "asset/tile/wall/1984L.png",
       "asset/tile/wall/1984HL.png",
       "asset/tile/wall/1984HL.png",
+      "asset/tile/wall/1984D.png",
+      "asset/tile/wall/1984D.png"
+    ]
+  },
+  {
+    "model": "DNW-1984-PLAIN",
+    "row": [
+      "asset/tile/wall/1984D.png",
+      "asset/tile/wall/1984D.png",
+      "asset/tile/wall/1984D.png",
+      "asset/tile/wall/1984D.png",
       "asset/tile/wall/1984D.png",
       "asset/tile/wall/1984D.png"
     ]
@@ -266,12 +310,34 @@
     ]
   },
   {
+    "model": "DNW-2292-PLAIN",
+    "row": [
+      "asset/tile/wall/2292D.png",
+      "asset/tile/wall/2292D.png",
+      "asset/tile/wall/2292D.png",
+      "asset/tile/wall/2292D.png",
+      "asset/tile/wall/2292D.png",
+      "asset/tile/wall/2292D.png"
+    ]
+  },
+  {
     "model": "DNW-2301",
     "row": [
       "asset/tile/wall/2301L.png",
       "asset/tile/wall/2301L.png",
       "asset/tile/wall/2301HL.png",
       "asset/tile/wall/2301HL.png",
+      "asset/tile/wall/2301D.png",
+      "asset/tile/wall/2301D.png"
+    ]
+  },
+  {
+    "model": "DNW-2301-PLAIN",
+    "row": [
+      "asset/tile/wall/2301D.png",
+      "asset/tile/wall/2301D.png",
+      "asset/tile/wall/2301D.png",
+      "asset/tile/wall/2301D.png",
       "asset/tile/wall/2301D.png",
       "asset/tile/wall/2301D.png"
     ]
@@ -336,12 +402,12 @@
     "model": "DNW-1007-PLAIN",
     "bg": "room-1.png",
     "row": [
-      "asset/tile/wall/1007L.png",
-      "asset/tile/wall/1007L.png",
-      "asset/tile/wall/1007L.png",
-      "asset/tile/wall/1007L.png",
-      "asset/tile/wall/1007L.png",
-      "asset/tile/wall/1007L.png"
+      "asset/tile/wall/1007D.png",
+      "asset/tile/wall/1007D.png",
+      "asset/tile/wall/1007D.png",
+      "asset/tile/wall/1007D.png",
+      "asset/tile/wall/1007D.png",
+      "asset/tile/wall/1007D.png"
     ]
   },
   {
@@ -352,6 +418,17 @@
       "asset/tile/wall/1027HL1.png",
       "asset/tile/wall/1027D.png",
       "asset/tile/wall/1027HL2.png",
+      "asset/tile/wall/1027D.png"
+    ]
+  },
+  {
+    "model": "DNW-1027-PLAIN",
+    "bg": "room-3.png",
+    "row": [
+      "asset/tile/wall/1027D.png",
+      "asset/tile/wall/1027D.png",
+      "asset/tile/wall/1027D.png",
+      "asset/tile/wall/1027D.png",
       "asset/tile/wall/1027D.png"
     ]
   },
