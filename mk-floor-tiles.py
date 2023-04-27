@@ -82,8 +82,6 @@ bg_list = os.listdir(PATH_BG)
 tile_list = os.listdir("asset/tile/floor")
 
 
-
-
 for row in tile_list:
 
   model = os.path.splitext(row)[0]
@@ -95,10 +93,12 @@ for row in tile_list:
     file_bg = f"{PATH_BG}/{bg}"
     
     print(f"  Processing: {model} with background {bg}")  
-    #tile_level_1(model)
-    #tile_level_2(model)
-    #tile_level_3(model)
+    tile_level_1(model)
+    tile_level_2(model)
+    tile_level_3(model)
     tile_level_4(model, file_bg, file_out)
+  else:
+    print(f"Skip: {file_out}")
  
   
   

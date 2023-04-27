@@ -135,6 +135,7 @@
   },
   {
     "model": "DNW-1035",
+    "bg": "room-4.png",
     "row": [
       "asset/tile/wall/1035L.png",
       "asset/tile/wall/1035L.png",
@@ -157,6 +158,7 @@
   },
   {
     "model": "DNW-1038",
+    "bg": "room-4.png",
     "row": [
       "asset/tile/wall/1038L.png",
       "asset/tile/wall/1038L.png",
@@ -393,7 +395,7 @@
       "asset/tile/wall/1007L.png",
       "asset/tile/wall/1007L.png",
       "asset/tile/wall/1007HL.png",
-      "asset/tile/wall/1007HL.png",
+      "asset/tile/wall/1007D.png",
       "asset/tile/wall/1007D.png",
       "asset/tile/wall/1007D.png"
     ]
@@ -438,9 +440,9 @@
     "row": [
       "asset/tile/wall/1039L.png",
       "asset/tile/wall/1039L.png",
-      "asset/tile/wall/1039L.png",
       "asset/tile/wall/1039HL1.png",
       "asset/tile/wall/1039HL2.png",
+      "asset/tile/wall/1039L.png",
       "asset/tile/wall/1039L.png"
     ]
   },
@@ -469,6 +471,7 @@
   },
   {
     "model": "DNW-1100",
+    "bg": "room-4.png",
     "row": [
       "asset/tile/wall/1100L.png",
       "asset/tile/wall/1100L.png",
@@ -492,7 +495,7 @@
   },
   {
     "model": "DNW-E104",
-    "bg": "room-3.png",
+    "bg": "kitchen-2.png",
     "row": [
       "asset/tile/elevation/e104.png",
       "asset/tile/elevation/e104.png",
@@ -516,7 +519,7 @@
   },
   {
     "model": "DNW-E102",
-    "bg": "room-1.png",
+    "bg": "kitchen-2.png",
     "row": [
       "asset/tile/elevation/e102.png",
       "asset/tile/elevation/e102.png",
