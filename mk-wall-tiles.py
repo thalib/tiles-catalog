@@ -50,11 +50,16 @@ def tile_level_2(model):
   cmd = f"magick montage {file_out}-L1.png {cmd_args} {file_out}-L2.png"
   runCmd(cmd)
 
+'''
+This function creates footer tiles details box
+'''
 def tile_level_3(model, tile_data):
   file_out = f"out/temp/{model}"
   offset_x = 50
   offset_y = 80
   file_input = list(set(tile_data['row']))
+  if "floor" in tile_data:
+     file_input.append(tile_data["floor"])
   cmd_args = ""
   cmd_args += f" -gravity northwest -fill black -pointsize 35 -annotate +{offset_x}+15 Model:{model} "
   cmd_args += f" -gravity north -fill black -pointsize 35 -annotate +{offset_x}+15 www.deltaware.in "

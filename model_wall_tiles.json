@@ -8,7 +8,8 @@
       "asset/tile/wall/1002HL.png",
       "asset/tile/wall/1002D.png",
       "asset/tile/wall/1002D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1002FL.png"
   },
   {
     "model": "DN-GLOSSY-1004",
@@ -19,10 +20,11 @@
       "asset/tile/wall/1004HL.png",
       "asset/tile/wall/1004D.png",
       "asset/tile/wall/1004D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1004FL.png"
   },
   {
-    "model": "DN-GLOSSY-1009",
+    "model": "DN-GLOSSY-KIT-1009",
     "bg": "kitchen-2.png",
     "row": [
       "asset/tile/wall/1009L.png",
@@ -31,7 +33,8 @@
       "asset/tile/wall/1009HL.png",
       "asset/tile/wall/1009D.png",
       "asset/tile/wall/1009D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1009FL.png"
   },
   {
     "model": "DN-GLOSSY-1010",
@@ -42,7 +45,8 @@
       "asset/tile/wall/1010HL.png",
       "asset/tile/wall/1010D.png",
       "asset/tile/wall/1010D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1010FL.png"
   },
   {
     "model": "DN-GLOSSY-1011",
@@ -53,7 +57,8 @@
       "asset/tile/wall/1011HL.png",
       "asset/tile/wall/1011D.png",
       "asset/tile/wall/1011D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1011FL.png"
   },
   {
     "model": "DN-GLOSSY-1021",
@@ -64,7 +69,8 @@
       "asset/tile/wall/1021HL.png",
       "asset/tile/wall/1021D.png",
       "asset/tile/wall/1021D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1021FL.png"
   },
   {
     "model": "DN-GLOSSY-1026",
@@ -75,7 +81,8 @@
       "asset/tile/wall/1026HL.png",
       "asset/tile/wall/1026D.png",
       "asset/tile/wall/1026D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1026FL.png"
   },
   {
     "model": "DN-GLOSSY-1028",
@@ -86,7 +93,8 @@
       "asset/tile/wall/1028HL.png",
       "asset/tile/wall/1028D.png",
       "asset/tile/wall/1028D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1028FL.png"
   },
   {
     "model": "DN-GLOSSY-1029",
@@ -97,7 +105,8 @@
       "asset/tile/wall/1029HL.png",
       "asset/tile/wall/1029D.png",
       "asset/tile/wall/1029D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1029FL.png"
   },
   {
     "model": "DN-GLOSSY-1030",
@@ -109,7 +118,8 @@
       "asset/tile/wall/1030HL.png",
       "asset/tile/wall/1030D.png",
       "asset/tile/wall/1030D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1030FL.png"
   },
   {
     "model": "DN-GLOSSY-1031",
@@ -120,7 +130,8 @@
       "asset/tile/wall/1031HL.png",
       "asset/tile/wall/1031D.png",
       "asset/tile/wall/1031D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1031FL.png"
   },
   {
     "model": "DN-GLOSSY-1034",
@@ -131,7 +142,8 @@
       "asset/tile/wall/1034HL.png",
       "asset/tile/wall/1034D.png",
       "asset/tile/wall/1034D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1034FL.png"
   },
   {
     "model": "DN-MATT-1035",
@@ -143,7 +155,8 @@
       "asset/tile/wall/1035HL.png",
       "asset/tile/wall/1035D.png",
       "asset/tile/wall/1035D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1035FL.png"
   },
   {
     "model": "DN-MATT-1036",
@@ -154,7 +167,8 @@
       "asset/tile/wall/1036HL.png",
       "asset/tile/wall/1036D.png",
       "asset/tile/wall/1036D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1036FL.png"
   },
   {
     "model": "DN-MATT-1038",
@@ -166,7 +180,8 @@
       "asset/tile/wall/1038HL.png",
       "asset/tile/wall/1038D.png",
       "asset/tile/wall/1038D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1038FL.png"
   },
   {
     "model": "DN-GLOSSY-1115",
@@ -177,7 +192,8 @@
       "asset/tile/wall/1115HL.png",
       "asset/tile/wall/1115D.png",
       "asset/tile/wall/1115D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1115FL.png"
   },
   {
     "model": "DN-GLOSSY-1115-PLAIN",
@@ -188,7 +204,8 @@
       "asset/tile/wall/1115D.png",
       "asset/tile/wall/1115D.png",
       "asset/tile/wall/1115D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1115FL.png"
   },
   {
     "model": "DN-GLOSSY-1120",
@@ -199,7 +216,8 @@
       "asset/tile/wall/1120HL.png",
       "asset/tile/wall/1120D.png",
       "asset/tile/wall/1120D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1120FL.png"
   },
   {
     "model": "DN-GLOSSY-1122",
@@ -210,7 +228,8 @@
       "asset/tile/wall/1122HL.png",
       "asset/tile/wall/1122D.png",
       "asset/tile/wall/1122D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1122FL.png"
   },
   {
     "model": "DN-GLOSSY-1122-PLAIN",
@@ -221,7 +240,8 @@
       "asset/tile/wall/1122D.png",
       "asset/tile/wall/1122D.png",
       "asset/tile/wall/1122D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1122FL.png"
   },
   {
     "model": "DN-GLOSSY-1123",
@@ -232,10 +252,11 @@
       "asset/tile/wall/1123HL.png",
       "asset/tile/wall/1123D.png",
       "asset/tile/wall/1123D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1123FL.png"
   },
   {
-    "model": "DN-GLOSSY-1981",
+    "model": "DN-GLOSSY-KIT-1981",
     "row": [
       "asset/tile/wall/1981L.png",
       "asset/tile/wall/1981L.png",
@@ -243,7 +264,8 @@
       "asset/tile/wall/1981HL.png",
       "asset/tile/wall/1981D.png",
       "asset/tile/wall/1981D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1981FL.png"
   },
   {
     "model": "DN-GLOSSY-1981-PLAIN",
@@ -254,7 +276,8 @@
       "asset/tile/wall/1981D.png",
       "asset/tile/wall/1981D.png",
       "asset/tile/wall/1981D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1981FL.png"
   },
   {
     "model": "DN-GLOSSY-1982",
@@ -265,7 +288,8 @@
       "asset/tile/wall/1982HL.png",
       "asset/tile/wall/1982D.png",
       "asset/tile/wall/1982D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1982FL.png"
   },
   {
     "model": "DN-GLOSSY-1984",
@@ -276,7 +300,8 @@
       "asset/tile/wall/1984HL.png",
       "asset/tile/wall/1984D.png",
       "asset/tile/wall/1984D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1984FL.png"
   },
   {
     "model": "DN-GLOSSY-1984-PLAIN",
@@ -287,7 +312,8 @@
       "asset/tile/wall/1984D.png",
       "asset/tile/wall/1984D.png",
       "asset/tile/wall/1984D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1984FL.png"
   },
   {
     "model": "DN-GLOSSY-2211",
@@ -298,7 +324,8 @@
       "asset/tile/wall/2211HL.png",
       "asset/tile/wall/2211D.png",
       "asset/tile/wall/2211D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/2211FL.png"
   },
   {
     "model": "DN-GLOSSY-2292",
@@ -309,7 +336,8 @@
       "asset/tile/wall/2292HL.png",
       "asset/tile/wall/2292D.png",
       "asset/tile/wall/2292D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/2292FL.png"
   },
   {
     "model": "DN-GLOSSY-2292-PLAIN",
@@ -320,7 +348,8 @@
       "asset/tile/wall/2292D.png",
       "asset/tile/wall/2292D.png",
       "asset/tile/wall/2292D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/2292FL.png"
   },
   {
     "model": "DN-GLOSSY-2301",
@@ -331,7 +360,8 @@
       "asset/tile/wall/2301HL.png",
       "asset/tile/wall/2301D.png",
       "asset/tile/wall/2301D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/2301FL.png"
   },
   {
     "model": "DN-GLOSSY-2301-PLAIN",
@@ -342,7 +372,8 @@
       "asset/tile/wall/2301D.png",
       "asset/tile/wall/2301D.png",
       "asset/tile/wall/2301D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/2301FL.png"
   },
   {
     "model": "DN-GLOSSY-2337",
@@ -353,7 +384,8 @@
       "asset/tile/wall/2337HL.png",
       "asset/tile/wall/2337D.png",
       "asset/tile/wall/2337D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/2337FL.png"
   },
   {
     "model": "DN-GLOSSY-2346",
@@ -364,7 +396,8 @@
       "asset/tile/wall/2346HL.png",
       "asset/tile/wall/2346D.png",
       "asset/tile/wall/2346D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/2346FL.png"
   },
   {
     "model": "DN-GLOSSY-C002",
@@ -375,7 +408,8 @@
       "asset/tile/wall/C002HL.png",
       "asset/tile/wall/C002D.png",
       "asset/tile/wall/C002D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/C002FL.png"
   },
   {
     "model": "DN-GLOSSY-1001",
@@ -386,7 +420,8 @@
       "asset/tile/wall/1001HL.png",
       "asset/tile/wall/1001D.png",
       "asset/tile/wall/1001D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1001FL.png"
   },
   {
     "model": "DN-GLOSSY-1007",
@@ -398,7 +433,8 @@
       "asset/tile/wall/1007D.png",
       "asset/tile/wall/1007D.png",
       "asset/tile/wall/1007D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1007FL.png"
   },
   {
     "model": "DN-GLOSSY-1007-PLAIN",
@@ -410,10 +446,11 @@
       "asset/tile/wall/1007D.png",
       "asset/tile/wall/1007D.png",
       "asset/tile/wall/1007D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1007FL.png"
   },
   {
-    "model": "DN-GLOSSY-1027",
+    "model": "DN-GLOSSY-KIT-1027",
     "bg": "kitchen-1.png",
     "row": [
       "asset/tile/wall/1027D.png",
@@ -421,7 +458,8 @@
       "asset/tile/wall/1027D.png",
       "asset/tile/wall/1027HL2.png",
       "asset/tile/wall/1027D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1027FL.png"
   },
   {
     "model": "DN-GLOSSY-1027-PLAIN",
@@ -432,7 +470,8 @@
       "asset/tile/wall/1027D.png",
       "asset/tile/wall/1027D.png",
       "asset/tile/wall/1027D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1027FL.png"
   },
   {
     "model": "DN-GLOSSY-1039",
@@ -444,7 +483,8 @@
       "asset/tile/wall/1039HL2.png",
       "asset/tile/wall/1039L.png",
       "asset/tile/wall/1039L.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1039FL.png"
   },
   {
     "model": "DN-GLOSSY-1040",
@@ -456,7 +496,8 @@
       "asset/tile/wall/1040HL2.png",
       "asset/tile/wall/1040D.png",
       "asset/tile/wall/1040D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1040FL.png"
   },
   {
     "model": "DN-GLOSSY-1052",
@@ -467,7 +508,8 @@
       "asset/tile/wall/1052HL.png",
       "asset/tile/wall/1052D.png",
       "asset/tile/wall/1052D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1052FL.png"
   },
   {
     "model": "DN-GLOSSY-1100",
@@ -479,10 +521,11 @@
       "asset/tile/wall/1100HL.png",
       "asset/tile/wall/1100D.png",
       "asset/tile/wall/1100D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1100FL.png"
   },
   {
-    "model": "DN-GLOSSY-1983",
+    "model": "DN-GLOSSY-KIT-1983",
     "bg": "kitchen-2.png",
     "row": [
       "asset/tile/wall/1983D.png",
@@ -491,10 +534,11 @@
       "asset/tile/wall/1983HL2.png",
       "asset/tile/wall/1983D.png",
       "asset/tile/wall/1983D.png"
-    ]
+    ],
+    "floor": "asset/tile/floor/1983FL.png"
   },
   {
-    "model": "DN-GLOSSY-E104",
+    "model": "DN-GLOSSY-zELE-E104",
     "bg": "kitchen-2.png",
     "row": [
       "asset/tile/elevation/e104.png",
@@ -506,7 +550,7 @@
     ]
   },
   {
-    "model": "DN-GLOSSY-E103",
+    "model": "DN-GLOSSY-zELE-E103",
     "bg": "kitchen-2.png",
     "row": [
       "asset/tile/elevation/e103.png",
@@ -518,7 +562,7 @@
     ]
   },
   {
-    "model": "DN-GLOSSY-E102",
+    "model": "DN-GLOSSY-zELE-E102",
     "bg": "kitchen-2.png",
     "row": [
       "asset/tile/elevation/e102.png",
@@ -530,7 +574,7 @@
     ]
   },
   {
-    "model": "DN-GLOSSY-E101",
+    "model": "DN-GLOSSY-zELE-E101",
     "bg": "room-4.png",
     "row": [
       "asset/tile/elevation/e101.png",
